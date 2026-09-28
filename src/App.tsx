@@ -164,7 +164,7 @@ function App() {
   };
   
   
-  // Filtrar videojuegos
+
   const juegosFiltrados = juegos.filter((juego) => {
   
     const coincideBusqueda = juego.title
@@ -211,7 +211,7 @@ function App() {
 
     setJuegos(juegosActualizados);
 
-  // Guardar el nuevo stock en el navegador
+  
   const stockGuardado = Object.fromEntries(
     juegosActualizados.map((juego) => [
       juego.id,

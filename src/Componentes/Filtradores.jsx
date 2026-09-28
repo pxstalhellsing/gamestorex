@@ -6,10 +6,14 @@ const Filtradores = ({
   genre,
   setGenre
  }) => {
+  const inputBase =
+    "w-full rounded-lg border border-slate-600 bg-slate-800 px-3 py-2 text-shadow " +
+    "placeholder-slate-400 outline-none transition " +
+    "focus:border-purple-500 focus:ring-2 focus:ring-purple-500/40";
   return (
     
 
-    <div className="bg-white p-4 rounded-lg shadow-sm mb-6 flex flex-col sm:flex-row gap-4">
+    <div className="bg-slate-800 p-4 rounded-lg shadow-sm mb-6 flex flex-col sm:flex-row gap-4 border border-slate-700">
 
       <div className="grid w-full grid-cols-1 gap-3 md:grid-cols-4">
 
